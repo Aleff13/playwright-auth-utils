@@ -8,7 +8,7 @@ This module exports AuthUtils with two capabilities: saving a session and inject
 ```ts
   import { AuthUtils } from 'playwright-auth-utils';
 
-  test('has title', async ({ page, browser }) => {
+  test('example', async ({ page, browser }) => {
     const pathToFileSession = "path/file.json"
 
     await page.goto('https://playwright.dev/');
